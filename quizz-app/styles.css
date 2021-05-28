@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+h1{
+    font-size: 3rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    padding: 0.5rem;
+}
+ul li:hover{
+    background-color: #8268f3;
+    color: #fff;
+}
+ul li label{
+    cursor: pointer;
+}
+.quizz-container{
+    background-color:rgb(243, 236, 236);
+    border-radius: 10px;
+    box-shadow: grey;
+    font-size: 1.5rem;
+    width: 600px;
+    max-width: 100%;
+}
+.quizz-header{
+    padding: 2rem;
+}
+button{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+    border: none;
+    width: 100%;
+    background-color: #341f97;
+    padding: 1.5rem;
+}
+button:hover{
+    background-color: #5f27cd;
+}

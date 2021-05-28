@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@media only screen and (max-width: 767px) {
+    body {
+    
+        background-image: url(https://krot.info/uploads/posts/2020-03/1583936754_16-p-zimnie-foni-dlya-rabochego-stola-74.jpg);
+    }
+}
+body{
+    background-image: url(https://krot.info/uploads/posts/2020-03/1583936754_16-p-zimnie-foni-dlya-rabochego-stola-74.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: rgb(76, 1, 138);
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30vw;
+
+}
+h1{
+    font-size: 5vw;
+}
+.countdown-timer{
+    display: flex;
+}
+.big-text{
+    font-size: 3vw;
+    font-weight: bold;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1vw;
+    padding: 2vw;
+}
