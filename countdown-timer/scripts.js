@@ -1,4 +1,4 @@
-const newYear = "15 June 2021";
+const newYear = new Date(15,06,2021);
 
 const dayEl =  document.getElementById('day');
 const hourEl = document.getElementById('hour');
